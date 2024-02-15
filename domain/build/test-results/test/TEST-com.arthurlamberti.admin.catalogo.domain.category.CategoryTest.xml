@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-02-15T02:42:24" hostname="MacBook-Pro-de-Arthur-2.local" time="0.021">
+  <properties/>
+  <testcase name="givenAValidParams_WhenCallNewCategory_thenInstantiateACategory()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.007"/>
+  <testcase name="givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.003"/>
+  <testcase name="givenAnEmptyDescription_WhenCallNewCategory_thenInstantiateACategory()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAnInvalidNameLengthMoreThen255_whenCallNewCategoryAndValidate_theSouldReceiveError()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAVInactiveCategory_whenCallActivate_thenReturnCategoryInactive()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidCategory_whenCallDeactivate_thenReturnCategoryInactive()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAValidCategory_whenCUpdateToInactive_thenReturnCategoryUpdated()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAValidCategory_whenCallUpdateWithInvalidParams_thenReturnCategoryUpdated()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAnInvalidNameLengthLessThen3_whenCallNewCategoryAndValidate_theSouldReceiveError()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAValidIsActiveFalse_WhenCallNewCategory_thenInstantiateACategory()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAnInvalidEmptyName_whenCallNewCategoryAndValidate_theSouldReceiveError()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAnInvalidNullName_whenCallNewCategoryAndValidate_theSouldReceiveError()" classname="com.arthurlamberti.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

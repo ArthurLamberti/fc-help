@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-15T02:42:23" hostname="MacBook-Pro-de-Arthur-2.local" time="0.009">
+  <properties/>
+  <testcase name="givenAnInvalidId_whenCallsUpdateCategory_thenShouldReturnNotFoundException()" classname="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" time="0.002"/>
+  <testcase name="givenAValidInactiveCommandCategory_whenCallsUpdateCategory_thenReturnInactiveCategoryId()" classname="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" time="0.002"/>
+  <testcase name="givenAValidCommand_whenGatewayThrowsAException_thenReturnAException()" classname="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" time="0.001"/>
+  <testcase name="givenAValidCommand_whenCallsUpdateCategory_thenReturnCategoryId()" classname="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" time="0.002"/>
+  <testcase name="givenAInvalidName_whenCallsUpdateCategory_thenReturnDomainException()" classname="com.arthurlamberti.admin.catalogo.application.category.update.UpdateCategoryUpdateUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

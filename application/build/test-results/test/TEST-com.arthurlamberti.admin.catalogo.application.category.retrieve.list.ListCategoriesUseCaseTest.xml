@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.arthurlamberti.admin.catalogo.application.category.retrieve.list.ListCategoriesUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-15T02:42:23" hostname="MacBook-Pro-de-Arthur-2.local" time="0.01">
+  <properties/>
+  <testcase name="givenAValidQuery_whenHasNoResult_thenShouldReturnEmptyCategories()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.list.ListCategoriesUseCaseTest" time="0.004"/>
+  <testcase name="givenAValidId_whenGatewayThrowsError_shouldReturnException()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.list.ListCategoriesUseCaseTest" time="0.001"/>
+  <testcase name="givenAValidQuery_whenCallListCategories_thenShouldReturnCategories()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.list.ListCategoriesUseCaseTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

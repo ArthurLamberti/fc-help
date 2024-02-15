@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'com.arthurlamberti.admin.catalogo.application'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(":domain"))
+
+    // https://mvnrepository.com/artifact/io.vavr/vavr
+    implementation group: 'io.vavr', name: 'vavr', version: '0.10.4'
+//    implementation 'javax.inject:javax.inject:1' //could be use to inject usecases
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '5.10.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}

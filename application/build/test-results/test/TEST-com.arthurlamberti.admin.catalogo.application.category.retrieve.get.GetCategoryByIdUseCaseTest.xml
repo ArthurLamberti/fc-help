@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.arthurlamberti.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-15T02:42:23" hostname="MacBook-Pro-de-Arthur-2.local" time="0.015">
+  <properties/>
+  <testcase name="givenAnInvalidId_whenCallsGetCategory_shouldBeReturnNotFound()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseTest" time="0.003"/>
+  <testcase name="givenAValidId_whenCallsGetCategory_shouldBeReturnCategory()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseTest" time="0.011"/>
+  <testcase name="givenAValidId_whenGatewayThrowsError_shouldReturnException()" classname="com.arthurlamberti.admin.catalogo.application.category.retrieve.get.GetCategoryByIdUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
